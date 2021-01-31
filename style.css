@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex:1;
+text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a{
+text-decoration: none;
+color:teal
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.col-2{
+flex-basis: 50%;
+min-width: 300px;
+}
+.col-2 img{
+    width: 100%;
+    padding: 20px 0;
+}
+.col-2 h1{
+    font-size: 100px;
+    margin-top: -20px;
+}
+.col-2 h4{
+    text-align: right;
+    padding: 0 75px;
+    margin-top: -20px;
+    font-size: medium;
+    margin-bottom: 25px;
+}
+.col-2 h2
+{
+    font-size: 30px;
+}
+.col-2 p{
+    width: 80%;
+    text-align: left;
+    padding: 0 20px;
+    line-height: 20px;
+}
+button
+{
+    
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color:rgb(17, 202, 235);
+    color: white;
+    margin-top: 10px;
+    
+}
+button:focus{
+    outline: none;
+}
+.searchBar
+{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+.searchBar input{
+    width: 80%;
+    height: 30px;
+    border-radius: 0px;
+    outline: none;
+    padding: 20px;
+}
+.searchBar i{
+    z-index: 999;
+    width: 80%;
+    height: 30px;
+    border-radius: 0px;
+    outline: none;
+}
+.line-1{
+    width: 20px;
+    height: 15px;
+    background-color: orange;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+.line-2{
+    width: 50px;
+    height: 5px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.col-3{
+    flex-basis: 30%;
+    align-items: center;
+    padding: 50px 50px;
+    
+}
+.col-3 img{
+    width: 90%;
+    transition: 0.5s;
+
+    
+}
+.col-3 img:hover{
+    transform: translateY(-10px);
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    font-style: initial;
+    font-size: 30px;
+}
+.underLine{
+    width: 40%;
+    height: 5px;
+    display: inline-block;
+    background-color: orange;
+    margin-top: 2px;
+}
+.col-4{
+    flex-basis: 23%;
+    justify-content: space-around;
+    margin-top: 30px;
+    box-shadow: 0 10px 20px 0px rgba(107, 100, 100, 0.1);
+    padding: 5px;
+    transition: .5s;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.col-4 img{
+    width: 30%;
+    align-items:center;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 50%;
+
+}
+.col-4 p{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    margin-top: 20px;
+   
+
+}
+.fa.fa-quote-left{
+    padding: 10px;
+    font-size: 20px;
+    color: orange;
+}
+.rating{
+    text-align: center;
+    color: orange;
+}
+
+.footer{
+    background-color: black;
+    height: 35vh;
+    margin-top: 40px;
+}
+col-3{
+    flex-basis: 30%;
+    align-items: center;
+}
+.footer-row{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.footer-col-3{
+    flex-basis: 33%;
+    margin-top: 20px;
+    min-width: 300px;
+}
+}
+.footer-col-3 img{
+
+}
+.app{
+    margin-top: 40px;
+    line-height: 25px;
+    color: white;
+    width: 50%;
+}
+.mail{
+    width: 100%;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+.mail input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.mail label{
+    font-size: 32px;
+}
+.para{
+    margin-top: 50px;
+}
+.social{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.social p{
+    font-size: 30px;
+}
+.social ul{
+    display: block;
+    list-style-type: none;
+}
+.social ul li{
+    list-style-type:none ;
+    line-height: 30px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width:800px){
+    .navBar{
+        display: block;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        margin-top: -20px;
+    }
+    .col-2 h4{
+        text-align: right;
+        padding: 0 200px 0 0;
+        margin-top: -2px;
+        font-size: medium;
+        margin-bottom: 15px;
+
+    }
+    .col-2 h2
+    {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .col-2 p{
+        width: 80%;
+        text-align: left;
+        line-height: 20px;
+    }
+    .col-2 img{
+        width: 0%;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-top: 30px;
+        }
+    .heading{
+            text-align: center;
+            margin-top: 50px;
+            font-style: initial;
+            font-size: 10px;
+            
+        }
+
+        .col-3{
+            flex-basis: 100%;
+            align-items: center;
+            padding: 50px;
+            
+        }
+        .col-4{
+            flex-basis: 100%;
+            justify-content: space-around;
+            margin-top: 30px;
+            box-shadow: 0 10px 20px 0px rgba(107, 100, 100, 0.1);
+            padding: 25px;
+            transition: .5s;
+        }
+        .footer-col-3{
+            flex-basis: 100%;
+            margin-top: 20px;
+            min-width: 300px;
+        }
+        .footer{
+            background-color: black;
+            height: auto;
+            margin-top: 40px;
+            align-items: center;
+            text-align: center;
+        }
+        .mail{
+            width: 100%;
+            color: white;
+            align-items: center;
+            margin-top: 0%;
+        }
+        .para{
+            margin-top: 20px;
+        }
+        .app{
+            margin-top: 20px;
+            line-height: 25px;
+            color: white;
+        }
+
+        .acc-col-2{
+            flex-basis: 100%;
+            text-align: center;
+        }
+        .acc-col-2 img{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+        }
+        .acc-col-2 .quote{
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+        
+        }
+        .quote h3{
+            font-size: 10px;
+        }
+
+        .srow{
+            display: flex;
+            width: 100px;
+            margin: auto;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+        }
+
+         .scol-4{
+            flex-basis: 100%;
+            justify-content: space-around;
+            padding: 5px;
+            transition: .5s;
+        }
+        .scol-4 img{
+            width: 100%;
+            align-items: center;
+            display: inline-block;
+        }
+        .about h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .about p{
+            font-size: medium;
+            font-weight: lighter;
+            width: 90%;
+            margin-top: 0px;
+            text-align: center;
+        }
+        .about h5{
+            font-size: 20px;
+            text-align: right;
+            width: 90%;
+            text-align: center;
+        }
+}
+
+
+
+
+/* Account */
+.acc-col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: center;
+}
+.acc-col-2 img{
+    width: 50%;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+    float: left;
+}
+.acc-col-2 .quote{
+    text-align: right;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    padding: 10px;
+
+}
+.quote h3{
+    font-size: 40px;
+}
+.quote p{
+    font-size: small;
+}
+.form-container{
+    background: white;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.from{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border:1px solid #ccc ;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#LoginForm{
+    left: -300px;
+}
+#regForm{
+    left: 0px;
+}
+form a {
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff52ab;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: 1s;
+}
+.col-2 p{
+    margin-top:20px ;
+}
+.row-que{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -10px;
+
+}
+.prime{
+    display: block;
+    align-items: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.prime h4{
+    text-align: left;
+    margin-top: 10px;
+}
+.prime p{
+    line-height: 5px;
+   
+}
+small{
+    font-size: large;
+}
+.collab{
+    width: 80%;
+    margin: auto;
+}
+.collab .col-3{
+    margin: -50px;
+}
+.collab .col-3 img{
+    filter: grayscale(100%);
+}
+.collab .col-3 img:hover{
+    filter: grayscale(0%);
+}
+.lot-more
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid teal;
+    padding: 50px;
+}
+.lot-more .fa-quote-left{
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+}
+.lot-more h3{
+    font-size: 30px;
+}
+.lot-more p{
+    line-height: 22px;
+}
+.lot-more h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lot-more h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.lot-more .underLine{
+    width: 100%;
+    height: 2px;
+   text-align: right;
+
+}
+
+
+.about{
+    padding: 20px;
+    margin: auto ;
+}
+.about .col-2 img{
+    width: 100%;
+    padding: 20px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about p{
+    font-size: medium;
+    font-weight: lighter;
+    width: 90%;
+    margin-top: 0px;
+}
+.about h5{
+    font-size: 20px;
+    text-align: right;
+    width: 90%;
+}
+.srow{
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.srow .scol-4{
+    flex-basis: 30%;
+    max-width: 300px;
+    transition: 0.5s;
+}
+.srow .scol-4:hover{
+    transform: translateY(-10px);
+}
+
+.srow .scol-4 img{
+    padding: 5px;
+}
